@@ -14,33 +14,49 @@ const styles = StyleSheet.create({
     container:{
       padding: 24,
       flex: 1,
-      backgroundColor: 'gray'
+      backgroundColor: 'transparent'
     },
   
     title:{
+      fontFamily: 'sans-serif',
       fontSize: 64,
       fontWeight: 'bold',
+      textAlign: 'center',
+      padding: 5
     },
 
     subtitle:{
+      fontFamily: 'sans-serif',
       fontSize: 32,
       fontWeight: 'bold',
+      paddingBottom: 10
     },
   
     text:{
+      fontFamily: 'sans-serif',
       fontSize: 24,
+      paddingBottom: 8
     },
 
     label:{
+      fontFamily: 'sans-serif',
       fontSize: 16,
       textAlign: 'center',
-      color: 'blue'
+      color: '#171780',
+      padding: 5
     },
   
-    pic: {
+    profilePicture: {
       width: imageWidth / 3,
       height: imageHeight / 2,
       borderRadius: 1000,
+      alignSelf: 'center',
+    },
+    
+    projectPicture: {
+      width: imageWidth / 4,
+      height: imageHeight / 3,
+      borderRadius: 500,
       alignSelf: 'center',
     },
 
@@ -54,10 +70,7 @@ const styles = StyleSheet.create({
     splitscreen: {
       flexDirection: 'row',
       padding: 20,
-      
-      // backgroundColor: '#add8e6',
-      // borderWidth: 1,
-      // borderColor: 'black',
+      // backgroundColor: 'gray',
       justifyContent: 'space-evenly',
     }
   });
