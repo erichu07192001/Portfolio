@@ -7,6 +7,7 @@ import { Linking} from 'react-native'
 
 // Importing components
 import styles from './style';
+import Trivia from './projects/TriviaGame';
 
 export default function projects(){
     return(
@@ -26,6 +27,7 @@ export default function projects(){
                     source={require('../images/projectHeadImage.jpg')}
                 />
             </View>
+            <Trivia/>
         </View>
     );
 }
