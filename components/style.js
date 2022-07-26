@@ -2,6 +2,7 @@
 
 // Importing react packages
 import {StyleSheet, Dimensions} from 'react-native';
+import { ImageBackground } from 'react-native-web';
 
 // Variable used to find dimensions of screen
 const dimensions = Dimensions.get('window');
@@ -12,7 +13,8 @@ const imageWidth = dimensions.width;
 const styles = StyleSheet.create({
     container:{
       padding: 24,
-      flex: 1
+      flex: 1,
+      backgroundColor: 'gray'
     },
   
     title:{
@@ -28,6 +30,12 @@ const styles = StyleSheet.create({
     text:{
       fontSize: 24,
     },
+
+    label:{
+      fontSize: 16,
+      textAlign: 'center',
+      color: 'blue'
+    },
   
     pic: {
       width: imageWidth / 3,
@@ -35,11 +43,18 @@ const styles = StyleSheet.create({
       borderRadius: 1000,
       alignSelf: 'center',
     },
+
+    logo:{
+      height: 150,
+      width: 150,
+      alignSelf:'center',
+      borderRadius: 10
+    },
   
     splitscreen: {
       flexDirection: 'row',
-      paddingBottom: 200,
-      padding: 10,
+      padding: 20,
+      
       // backgroundColor: '#add8e6',
       // borderWidth: 1,
       // borderColor: 'black',
