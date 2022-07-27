@@ -18,10 +18,10 @@ export default function TriviaGame(){
                 />
                 <View>
                     <Text style = {styles.subtitle}>Platinum Trivia App (Spring 2019)</Text>
-                    <Text style = {styles.text}> A text based trivia game written in Java I built with a couple of classmates. </Text>
+                    <Text style = {styles.text}> A text based trivia game written in Java that I built with a couple of classmates. </Text>
                     <Text style = {styles.text}> You can play trivia other people have created or make your own for other's to play.  </Text>
                     <Text style = {styles.text}> This game was built using object oriented programming, with quizzes and scores being saved to file. </Text>
-                    <Text style = {styles.text}> Various data structures were used when running the game to create better performance.  </Text>
+                    <Text style = {styles.text}> Various data structures were used when running the game to create better performance.</Text>
                     <TouchableOpacity  onPress={() => webLink('https://github.com/ianduffield/COSI12B_Final_Project_Team12')}>
                         <Image
                             style={styles.logo}

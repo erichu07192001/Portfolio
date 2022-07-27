@@ -20,7 +20,7 @@ export default function About (){
             source={require('../images/profilePicture.jpg')}
         />
         <View> 
-            <Text style = {{fontSize: 20, textAlign: 'center', fontFamily: 'sans-serif',}}>Hello! I'm... </Text>
+            <Text style = {{fontSize: 20, fontFamily: 'sans-serif',}}>Hello! I'm...</Text>
             <Text style = {styles.title}>Eric Hu</Text>
             <Text style = {styles.subtitle}>I'm a senior at Brandeis University and majoring in Computer Science</Text>
             <Text style = {styles.subtitle}>and minoring in Asian American Pacific Islander Studies</Text>

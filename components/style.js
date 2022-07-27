@@ -21,8 +21,7 @@ const styles = StyleSheet.create({
       fontFamily: 'sans-serif',
       fontSize: 64,
       fontWeight: 'bold',
-      textAlign: 'center',
-      padding: 5,
+      // textAlign: 'center',
       paddingBottom: 10
     },
 
@@ -50,7 +49,7 @@ const styles = StyleSheet.create({
     profilePicture: {
       width: imageWidth / 3,
       height: imageHeight / 2,
-      borderRadius: 1000,
+      borderRadius: 2000,
       alignSelf: 'center',
       resizeMode: 'contain'
     },

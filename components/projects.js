@@ -9,6 +9,7 @@ import { Linking} from 'react-native'
 import styles from './style';
 import Trivia from './projects/triviaGame';
 import RunApp from './projects/runApp';
+import RenTree from './projects/renTree';
 
 export default function projects(){
     return(
@@ -28,6 +29,7 @@ export default function projects(){
                     source={require('../images/projectHeadImage.jpg')}
                 />
             </View>
+                <RenTree/>
                 <RunApp/>
                 <Trivia/>
         </View>

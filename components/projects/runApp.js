@@ -19,10 +19,10 @@ export default function RunApp(){
                 <View>
                     <Text style = {styles.subtitle}>RunApp (Summer 2020)</Text>
                     <Text style = {styles.text}> A website I built with NodeJS used to track running times based on distance.</Text>
-                    <Text style = {styles.text}> Deployed to Heroku and cloud storage on MongoDB (some functions of the  </Text>
+                    <Text style = {styles.text}> Deployed to Heroku wtih cloud storage on MongoDB (some functions of the  </Text>
                     <Text style = {styles.text}> website may be down due to MongoDB turning off inactive clusters).  </Text>
-                    <Text style = {styles.text}> RunApp allows users to login with their google account, allowing them to  </Text>
-                    <Text style = {styles.text}> access the leaderboard function to record and compare running times. </Text>
+                    <Text style = {styles.text}> RunApp enables users to login with their Google account, allowing them  </Text>
+                    <Text style = {styles.text}> access to the leaderboard function to record and compare running times. </Text>
                     <Text style = {styles.text}> Furthermore, I also implemented a weather API for users to check the weather.</Text>
                     <View style = {styles.splitscreen}>
                         <TouchableOpacity  onPress={() => webLink('https://github.com/erichu07192001/RunApp')}>
