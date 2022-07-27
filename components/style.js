@@ -65,9 +65,9 @@ const styles = StyleSheet.create({
     picture:{
       height: imageHeight / 3,
       width: imageWidth / 3,
-      resizeMode: 'contain',
+      // borderRadius: 75,
       alignSelf:'center',
-      borderRadius: 20
+      resizeMode: 'contain',
     },
 
     logo:{

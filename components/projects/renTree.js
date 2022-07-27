@@ -1,4 +1,4 @@
-// Trivia Game Project
+// RenTree Project
 
 // Importing react packages
 import React from 'react';

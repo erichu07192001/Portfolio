@@ -1,4 +1,4 @@
-// RunApp Project
+// Explorer Project
 
 // Importing react packages
 import React from 'react';
@@ -14,18 +14,18 @@ export default function RunApp(){
             <View style = {styles.splitscreen}>
                 <Image 
                     style = {styles.picture}
-                    source={require('../../images/runAppImages/runAppHomescreen.jpg')}
+                    source={require('../../images/explorerImages/explorerSeattle.png')}
                 />
                 <View>
-                    <Text style = {styles.subtitle}>RunApp (Summer 2020)</Text>
-                    <Text style = {styles.text}> A website I built with NodeJS used to track running times based on distance.</Text>
-                    <Text style = {styles.text}> Deployed to Heroku wtih cloud storage on MongoDB (some functions of the  </Text>
-                    <Text style = {styles.text}> website may be down due to MongoDB turning off inactive clusters).  </Text>
-                    <Text style = {styles.text}> RunApp enables users to login with their Google account, allowing them  </Text>
-                    <Text style = {styles.text}> access to the leaderboard function to record and compare running times. </Text>
-                    <Text style = {styles.text}> Furthermore, I also implemented a weather API for users to check the weather.</Text>
+                    <Text style = {styles.subtitle}>Explorer (Summer 2022)</Text>
+                    <Text style = {styles.text}> A mobile application I built with ReactJS and Expo.</Text>
+                    <Text style = {styles.text}> Explorer helps users find activities to do nearby. Users are asked for</Text>
+                    <Text style = {styles.text}> their location and can search for food and activities nearby.</Text>
+                    <Text style = {styles.text}> Explorer uses Yelp and Weather API to help users find activities</Text>
+                    <Text style = {styles.text}> </Text>
+                    <Text style = {styles.text}> </Text>
                     <View style = {styles.splitscreen}>
-                        <TouchableOpacity  onPress={() => webLink('https://github.com/erichu07192001/RunApp')}>
+                        <TouchableOpacity  onPress={() => webLink('https://github.com/erichu07192001/explorer')}>
                             <Image
                                 style={styles.logo}
                                 source={require('../../images/logos/gitHubLogo.jpg')}
