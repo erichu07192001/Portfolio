@@ -7,7 +7,8 @@ import { Linking} from 'react-native'
 
 // Importing components
 import styles from './style';
-import Trivia from './projects/TriviaGame';
+import Trivia from './projects/triviaGame';
+import RunApp from './projects/runApp';
 
 export default function projects(){
     return(
@@ -15,8 +16,8 @@ export default function projects(){
             <View style = {styles.splitscreen}>
                 <View>
                     <Text style = {styles.title}>Projects</Text>
-                    <Text style = {styles.subtitle}> Check out some of the projects</Text>
-                    <Text style = {styles.subtitle}> I have worked on during my time at Brandeis!</Text>
+                    <Text style = {styles.subtitle}>Check out some of the projects</Text>
+                    <Text style = {styles.subtitle}>I have worked on during my time at Brandeis!</Text>
                     <Text style = {styles.text}> Of course, there will be many more projects to come. </Text>
                     <Text style = {styles.text}> These are just a few that I thought were cool and would love to share!</Text>
                     <Text style = {styles.text}>  </Text>
@@ -27,7 +28,8 @@ export default function projects(){
                     source={require('../images/projectHeadImage.jpg')}
                 />
             </View>
-            <Trivia/>
+                <RunApp/>
+                <Trivia/>
         </View>
     );
 }

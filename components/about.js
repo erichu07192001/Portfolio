@@ -22,9 +22,9 @@ export default function About (){
         <View> 
             <Text style = {{fontSize: 20, textAlign: 'center', fontFamily: 'sans-serif',}}>Hello! I'm... </Text>
             <Text style = {styles.title}>Eric Hu</Text>
-            <Text style = {styles.subtitle}> I'm a senior at Brandeis University and majoring in Computer Science</Text>
-            <Text style = {styles.subtitle}> and minoring in Asian American Pacific Islander Studies</Text>
-            <Text style = {styles.subtitle}> and Film & Interactive Media Studies. </Text>
+            <Text style = {styles.subtitle}>I'm a senior at Brandeis University and majoring in Computer Science</Text>
+            <Text style = {styles.subtitle}>and minoring in Asian American Pacific Islander Studies</Text>
+            <Text style = {styles.subtitle}>and Film & Interactive Media Studies. </Text>
             <Text style = {styles.text}> I'm from Seattle, WA and I go to univesity in Boston, MA. Growing up, </Text>
             <Text style = {styles.text}> I was always interested in computers. When I was 13 years old, I built my</Text>
             <Text style = {styles.text}> first PC, which I've kept up and running up to this day. When I was 15,</Text>
@@ -41,7 +41,7 @@ export default function About (){
       <TouchableOpacity  onPress={() => webLink('https://docs.google.com/document/d/1RezT5OlxuhlwE_pwlQdn2xrkyLxE9JMZjGaygHm7UGs/edit?usp=sharing')}>
             <Image
                 style={styles.logo}
-                source={require('../images/googleDocsLogo.jpg')}
+                source={require('../images/logos/googleDocsLogo.jpg')}
             />
             <Text style = {styles.label}>Resume</Text>
         </TouchableOpacity>
@@ -49,7 +49,7 @@ export default function About (){
         <TouchableOpacity  onPress={() => webLink('https://www.linkedin.com/in/eric-hu-0aa96b1b0/')}>
             <Image
                 style={styles.logo}
-                source={require('../images/linkedInLogo.jpg')}
+                source={require('../images/logos/linkedInLogo.jpg')}
             />
             <Text style = {styles.label}>LinkedIn</Text>
         </TouchableOpacity>
@@ -57,7 +57,7 @@ export default function About (){
         <TouchableOpacity  onPress={() => webLink('https://github.com/erichu07192001')}>
             <Image
                 style={styles.logo}
-                source={require('../images/gitHubLogo.jpg')}
+                source={require('../images/logos/gitHubLogo.jpg')}
             />
             <Text style = {styles.label}>GitHub</Text>
         </TouchableOpacity>

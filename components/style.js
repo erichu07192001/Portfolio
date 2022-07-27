@@ -52,27 +52,31 @@ const styles = StyleSheet.create({
       height: imageHeight / 2,
       borderRadius: 1000,
       alignSelf: 'center',
+      resizeMode: 'contain'
     },
     
     projectPicture: {
-      width: imageWidth / 4,
-      height: imageHeight / 3,
+      width: imageWidth / 3,
+      height: imageHeight / 2,
       borderRadius: 500,
       alignSelf: 'center',
+      resizeMode: 'contain'
     },
 
     picture:{
-      height: imageHeight / 5,
-      width: imageWidth / 5,
+      height: imageHeight / 3,
+      width: imageWidth / 3,
+      resizeMode: 'contain',
       alignSelf:'center',
       borderRadius: 20
     },
 
     logo:{
-      height: 150,
-      width: 150,
+      height: imageHeight / 10,
+      width: imageWidth / 10,
       alignSelf:'center',
-      borderRadius: 10
+      borderRadius: 10,
+      resizeMode: 'contain',
     },
   
     splitscreen: {
