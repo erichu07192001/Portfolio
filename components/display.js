@@ -17,7 +17,7 @@ export default function display(){
     return(
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="About" component={About} />
+        <Tab.Screen name="About Me" component={About} />
         <Tab.Screen name="Projects" component={Projects} />
       </Tab.Navigator>
     </NavigationContainer>

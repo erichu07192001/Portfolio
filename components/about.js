@@ -7,6 +7,7 @@ import { Linking} from 'react-native'
 
 // Importing components
 import styles from './style';
+import webLink from './webLink';
 
 export default function About (){
 
@@ -37,7 +38,7 @@ export default function About (){
       </View>
 
       <View style = {styles.splitscreen}>
-      <TouchableOpacity  onPress={() => webBrowser('https://docs.google.com/document/d/1RezT5OlxuhlwE_pwlQdn2xrkyLxE9JMZjGaygHm7UGs/edit?usp=sharing')}>
+      <TouchableOpacity  onPress={() => webLink('https://docs.google.com/document/d/1RezT5OlxuhlwE_pwlQdn2xrkyLxE9JMZjGaygHm7UGs/edit?usp=sharing')}>
             <Image
                 style={styles.logo}
                 source={require('../images/googleDocsLogo.jpg')}
@@ -45,7 +46,7 @@ export default function About (){
             <Text style = {styles.label}>Resume</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity  onPress={() => webBrowser('https://www.linkedin.com/in/eric-hu-0aa96b1b0/')}>
+        <TouchableOpacity  onPress={() => webLink('https://www.linkedin.com/in/eric-hu-0aa96b1b0/')}>
             <Image
                 style={styles.logo}
                 source={require('../images/linkedInLogo.jpg')}
@@ -53,7 +54,7 @@ export default function About (){
             <Text style = {styles.label}>LinkedIn</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity  onPress={() => webBrowser('https://github.com/erichu07192001')}>
+        <TouchableOpacity  onPress={() => webLink('https://github.com/erichu07192001')}>
             <Image
                 style={styles.logo}
                 source={require('../images/gitHubLogo.jpg')}
@@ -68,10 +69,4 @@ export default function About (){
 
     </View>
     );
-}
-
-// Use to open up a new link
-const webBrowser = async (url) => {
-    await Linking.canOpenURL(url);
-    Linking.openURL(url).catch(err => console.error("Couldn't load page", err));
 }
