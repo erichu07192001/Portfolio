@@ -8,6 +8,10 @@
     "ios": "expo run:ios",
     "web": "expo start --web"
   },
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
+  },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.3.2",
     "@react-navigation/material-top-tabs": "^6.2.2",
