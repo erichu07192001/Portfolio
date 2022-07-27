@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
       fontSize: 64,
       fontWeight: 'bold',
       textAlign: 'center',
-      padding: 5
+      padding: 5,
+      paddingBottom: 10
     },
 
     subtitle:{
@@ -58,6 +59,13 @@ const styles = StyleSheet.create({
       height: imageHeight / 3,
       borderRadius: 500,
       alignSelf: 'center',
+    },
+
+    picture:{
+      height: imageHeight / 5,
+      width: imageWidth / 5,
+      alignSelf:'center',
+      borderRadius: 20
     },
 
     logo:{

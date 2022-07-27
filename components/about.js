@@ -63,7 +63,7 @@ export default function About (){
       </View>
 
       <View style = {{padding: 20}}> 
-        <Text style = {styles.label}>Click Me To Learn More!</Text>
+        <Text style = {styles.label}>Click Above To Learn More!</Text>
     </View>
 
     </View>
