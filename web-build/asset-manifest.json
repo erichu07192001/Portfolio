@@ -1,30 +1,36 @@
 {
   "files": {
-    "app.js": "/static/js/app.19be8edc.chunk.js",
-    "app.js.map": "/static/js/app.19be8edc.chunk.js.map",
+    "app.js": "/static/js/app.45c40e19.chunk.js",
+    "app.js.map": "/static/js/app.45c40e19.chunk.js.map",
     "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
     "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
-    "static/js/2.57cec6ec.chunk.js": "/static/js/2.57cec6ec.chunk.js",
-    "static/js/2.57cec6ec.chunk.js.map": "/static/js/2.57cec6ec.chunk.js.map",
+    "static/js/2.5ba79fe3.chunk.js": "/static/js/2.5ba79fe3.chunk.js",
+    "static/js/2.5ba79fe3.chunk.js.map": "/static/js/2.5ba79fe3.chunk.js.map",
     "index.html": "/index.html",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "static/js/2.57cec6ec.chunk.js.LICENSE.txt": "/static/js/2.57cec6ec.chunk.js.LICENSE.txt",
+    "static/js/2.5ba79fe3.chunk.js.LICENSE.txt": "/static/js/2.5ba79fe3.chunk.js.LICENSE.txt",
+    "static/media/cLogo.png": "/static/media/cLogo.7f58ab59.png",
     "static/media/explorerSeattle.png": "/static/media/explorerSeattle.3ad7b500.png",
-    "static/media/gitHubLogo.jpg": "/static/media/gitHubLogo.1842d729.jpg",
-    "static/media/googleDocsLogo.jpg": "/static/media/googleDocsLogo.aaa07753.jpg",
+    "static/media/gitHubLogo.png": "/static/media/gitHubLogo.7615be16.png",
+    "static/media/googleDocsLogo.png": "/static/media/googleDocsLogo.a4bc2d76.png",
     "static/media/herokuLogo.png": "/static/media/herokuLogo.7f145d38.png",
-    "static/media/linkedInLogo.jpg": "/static/media/linkedInLogo.9b621616.jpg",
+    "static/media/htmlLogo.png": "/static/media/htmlLogo.ff3cf75e.png",
+    "static/media/javaLogo.png": "/static/media/javaLogo.6c64373d.png",
+    "static/media/javascriptLogo.png": "/static/media/javascriptLogo.31c81075.png",
+    "static/media/linkedInLogo.png": "/static/media/linkedInLogo.b328e9de.png",
     "static/media/oneSlide.jpg": "/static/media/oneSlide.1a37181f.jpg",
     "static/media/profilePicture.jpg": "/static/media/profilePicture.99c92769.jpg",
     "static/media/projectHeadImage.jpg": "/static/media/projectHeadImage.51229a16.jpg",
+    "static/media/pythonLogo.png": "/static/media/pythonLogo.475c5ac4.png",
     "static/media/runAppHomescreen.jpg": "/static/media/runAppHomescreen.087fddd1.jpg",
     "static/media/triviaText.jpg": "/static/media/triviaText.74e32ab8.jpg",
-    "static/media/worldCancerHungary.png": "/static/media/worldCancerHungary.2bb1f182.png"
+    "static/media/worldCancerHungary.png": "/static/media/worldCancerHungary.2bb1f182.png",
+    "static/media/youtubeLogo.png": "/static/media/youtubeLogo.123881dd.png"
   },
   "entrypoints": [
     "static/js/runtime~app.2e9f1821.js",
-    "static/js/2.57cec6ec.chunk.js",
-    "static/js/app.19be8edc.chunk.js"
+    "static/js/2.5ba79fe3.chunk.js",
+    "static/js/app.45c40e19.chunk.js"
   ]
 }
