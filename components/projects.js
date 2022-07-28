@@ -13,7 +13,7 @@ import RenTree from './projects/renTree';
 import WorldCancer from './projects/worldCancer';
 import Explorer from './projects/explorer'
 
-export default function projects(){
+export default function Projects(){
     return(
         <View style = {styles.container}> 
             <View style = {styles.splitscreen}>

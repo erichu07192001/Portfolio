@@ -6,7 +6,6 @@ import { View,  Button, StyleSheet, Text, Image, TouchableOpacity} from 'react-n
 
 // Importing components
 import styles from '../style';
-import webLink from '../webLink';
 
 export default function WorldCancer(){
     return(
@@ -22,7 +21,7 @@ export default function WorldCancer(){
                     <Text style = {styles.text}> NumPy and pandas. </Text>
                     <Text style = {styles.text}> </Text>
                     <Text style = {styles.text}> </Text>
-                    <TouchableOpacity  onPress={() => webLink('https://github.com/erichu07192001/cs103a-cpa01')}>
+                    <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001/cs103a-cpa01')}>
                         <Image
                             style={styles.logo}
                             source={require('../../images/logos/gitHubLogo.jpg')}

@@ -6,7 +6,6 @@ import { View,  Button, StyleSheet, Text, Image, TouchableOpacity} from 'react-n
 
 // Importing components
 import styles from '../style';
-import webLink from '../webLink';
 
 export default function RenTree(){
     return(
@@ -22,7 +21,7 @@ export default function RenTree(){
                     <Text style = {styles.text}> Utilized the interaction design process by exploring the problem space,  </Text>
                     <Text style = {styles.text}> collecting data from users, and creating prototypes iteratively.</Text>
                     <Text style = {styles.text}> </Text>
-                    <TouchableOpacity  onPress={() => webLink('https://docs.google.com/document/d/15J6iff051kFF0meZH-qHulz0qBqcVLrNutITQBIkmXs/edit?usp=sharing')}>
+                    <TouchableOpacity  onPress={() => window.open('https://docs.google.com/document/d/15J6iff051kFF0meZH-qHulz0qBqcVLrNutITQBIkmXs/edit?usp=sharing')}>
                         <Image
                             style={styles.logo}
                             source={require('../../images/logos/googleDocsLogo.jpg')}

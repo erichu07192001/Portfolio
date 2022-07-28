@@ -6,7 +6,6 @@ import { View,  Button, StyleSheet, Text, Image, TouchableOpacity} from 'react-n
 
 // Importing components
 import styles from '../style';
-import webLink from '../webLink';
 
 export default function TriviaGame(){
     return(
@@ -22,7 +21,7 @@ export default function TriviaGame(){
                     <Text style = {styles.text}> You can play trivia other people have created or make your own for other's to play.  </Text>
                     <Text style = {styles.text}> This game was built using object oriented programming, with quizzes and scores being saved to file. </Text>
                     <Text style = {styles.text}> Various data structures were used when running the game to create better performance.</Text>
-                    <TouchableOpacity  onPress={() => webLink('https://github.com/ianduffield/COSI12B_Final_Project_Team12')}>
+                    <TouchableOpacity  onPress={() => window.open('https://github.com/ianduffield/COSI12B_Final_Project_Team12')}>
                         <Image
                             style={styles.logo}
                             source={require('../../images/logos/gitHubLogo.jpg')}

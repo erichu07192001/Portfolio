@@ -2,12 +2,11 @@
 
 // Importing react packages
 import React from 'react';
-import { View,  Button, StyleSheet, Text, Image, TouchableOpacity} from 'react-native';
-import { Linking} from 'react-native'
+import { View,  Button, StyleSheet, Text, Image, TouchableOpacity, Link} from 'react-native';
+import { Linking } from 'react-native'
 
 // Importing components
 import styles from './style';
-import webLink from './webLink';
 
 export default function About (){
 
@@ -38,7 +37,7 @@ export default function About (){
       </View>
 
       <View style = {styles.splitscreen}>
-      <TouchableOpacity  onPress={() => webLink('https://docs.google.com/document/d/1RezT5OlxuhlwE_pwlQdn2xrkyLxE9JMZjGaygHm7UGs/edit?usp=sharing')}>
+      <TouchableOpacity onPress={() => window.open('https://docs.google.com/document/d/1RezT5OlxuhlwE_pwlQdn2xrkyLxE9JMZjGaygHm7UGs/edit?usp=sharing')}>
             <Image
                 style={styles.logo}
                 source={require('../images/logos/googleDocsLogo.jpg')}
@@ -46,7 +45,7 @@ export default function About (){
             <Text style = {styles.label}>Resume</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity  onPress={() => webLink('https://www.linkedin.com/in/eric-hu-0aa96b1b0/')}>
+        <TouchableOpacity  onPress={() => window.open('https://www.linkedin.com/in/eric-hu-0aa96b1b0/')}>
             <Image
                 style={styles.logo}
                 source={require('../images/logos/linkedInLogo.jpg')}
@@ -54,7 +53,7 @@ export default function About (){
             <Text style = {styles.label}>LinkedIn</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity  onPress={() => webLink('https://github.com/erichu07192001')}>
+        <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001')}>
             <Image
                 style={styles.logo}
                 source={require('../images/logos/gitHubLogo.jpg')}

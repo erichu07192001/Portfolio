@@ -6,7 +6,6 @@ import { View,  Button, StyleSheet, Text, Image, TouchableOpacity} from 'react-n
 
 // Importing components
 import styles from '../style';
-import webLink from '../webLink';
 
 export default function RunApp(){
     return(
@@ -25,7 +24,7 @@ export default function RunApp(){
                     <Text style = {styles.text}> </Text>
                     <Text style = {styles.text}> </Text>
                     <View style = {styles.splitscreen}>
-                        <TouchableOpacity  onPress={() => webLink('https://github.com/erichu07192001/explorer')}>
+                        <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001/explorer')}>
                             <Image
                                 style={styles.logo}
                                 source={require('../../images/logos/gitHubLogo.jpg')}
@@ -33,7 +32,7 @@ export default function RunApp(){
                             <Text style = {styles.label}>GitHub</Text>
                         </TouchableOpacity>
 
-                        <TouchableOpacity  onPress={() => webLink('https://runapp-152.herokuapp.com/')}>
+                        <TouchableOpacity  onPress={() => window.open('https://runapp-152.herokuapp.com/')}>
                         <Image
                             style={styles.logo}
                             source={require('../../images/logos/herokuLogo.png')}
