@@ -11,10 +11,16 @@ const imageWidth = dimensions.width;
 
 // Used to keep styling consistent
 const styles = StyleSheet.create({
-    container:{
+    about:{
       padding: 24,
       flex: 1,
-      backgroundColor: 'transparent'
+      backgroundColor: '#FFFDE7'
+    },
+
+    projects:{
+      padding: 24,
+      flex: 1,
+      backgroundColor: '#D3D3D3'
     },
   
     title:{

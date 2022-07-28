@@ -2,8 +2,7 @@
 
 // Importing react packages
 import React from 'react';
-import { View,  Button, StyleSheet, Text, Image, TouchableOpacity, Link} from 'react-native';
-import { Linking } from 'react-native'
+import { View, Text, Image, TouchableOpacity,} from 'react-native';
 
 // Importing components
 import styles from './style';
@@ -12,7 +11,7 @@ export default function About (){
 
     // What is visually returned to display
     return(
-    <View style = {styles.container}>
+    <View style = {styles.about}>
       <View style = {styles.splitscreen}>
         <Image
             style={styles.profilePicture}
@@ -36,36 +35,81 @@ export default function About (){
         </View>
       </View>
 
-      <View style = {styles.splitscreen}>
-      <TouchableOpacity onPress={() => window.open('https://docs.google.com/document/d/1RezT5OlxuhlwE_pwlQdn2xrkyLxE9JMZjGaygHm7UGs/edit?usp=sharing')}>
-            <Image
-                style={styles.logo}
-                source={require('../images/logos/googleDocsLogo.jpg')}
-            />
-            <Text style = {styles.label}>Resume</Text>
-        </TouchableOpacity>
+      <View style = {{backgroundColor: '#C1E1C1', padding: 20, borderRadius: 20}}> 
+        <Text style = {styles.label}>Click On The Icons Below To Learn More!</Text>
+        
+        <View style = {styles.splitscreen}>
+            <TouchableOpacity onPress={() => window.open('https://docs.google.com/document/d/1RezT5OlxuhlwE_pwlQdn2xrkyLxE9JMZjGaygHm7UGs/edit?usp=sharing')}>
+                <Image
+                    style={styles.logo}
+                    source={require('../images/logos/googleDocsLogo.png')}
+                />
+                <Text style = {styles.label}>Resume</Text>
+            </TouchableOpacity>
 
-        <TouchableOpacity  onPress={() => window.open('https://www.linkedin.com/in/eric-hu-0aa96b1b0/')}>
-            <Image
-                style={styles.logo}
-                source={require('../images/logos/linkedInLogo.jpg')}
-            />
-            <Text style = {styles.label}>LinkedIn</Text>
-        </TouchableOpacity>
+            <TouchableOpacity  onPress={() => window.open('https://www.linkedin.com/in/eric-hu-0aa96b1b0/')}>
+                <Image
+                    style={styles.logo}
+                    source={require('../images/logos/linkedInLogo.png')}
+                />
+                <Text style = {styles.label}>LinkedIn</Text>
+            </TouchableOpacity>
 
-        <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001')}>
-            <Image
-                style={styles.logo}
-                source={require('../images/logos/gitHubLogo.jpg')}
-            />
-            <Text style = {styles.label}>GitHub</Text>
-        </TouchableOpacity>
+            <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001')}>
+                <Image
+                    style={styles.logo}
+                    source={require('../images/logos/gitHubLogo.png')}
+                />
+                <Text style = {styles.label}>GitHub</Text>
+            </TouchableOpacity>
+        </View>
       </View>
+        
+        <br/>
+        
+        <View style = {{backgroundColor: 'azure', padding: 20, borderRadius: 20}}>
+            <Text style = {styles.subtitle}>Proficient Languages</Text>
+            <View style = {styles.splitscreen}>
+                <View>
+                    <Image
+                        style={styles.logo}
+                        source={require('../images/logos/javaLogo.png')}
+                    />
+                    <Text style = {styles.label}>Java</Text>
+                </View>
 
-      <View style = {{padding: 20}}> 
-        <Text style = {styles.label}>Click Above To Learn More!</Text>
-    </View>
+                <View>
+                    <Image
+                        style={styles.logo}
+                        source={require('../images/logos/pythonLogo.png')}
+                    />
+                    <Text style = {styles.label}>Python</Text>
+                </View>
+                <View> 
+                    <Image
+                        style={styles.logo}
+                        source={require('../images/logos/javascriptLogo.png')}
+                    />
+                    <Text style = {styles.label}>Javascript</Text>
+                </View>
 
+                <View>
+                    <Image
+                        style={styles.logo}
+                        source={require('../images/logos/htmlLogo.png')}
+                    />
+                    <Text style = {styles.label}>HTML</Text>
+                </View>
+
+                <View>
+                    <Image
+                        style={styles.logo}
+                        source={require('../images/logos/cLogo.png')}
+                    />
+                    <Text style = {styles.label}>C#</Text>
+                </View>
+            </View>
+        </View>
     </View>
     );
 }

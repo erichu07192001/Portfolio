@@ -24,20 +24,25 @@ export default function RunApp(){
                     <Text style = {styles.text}> </Text>
                     <Text style = {styles.text}> </Text>
                     <View style = {styles.splitscreen}>
+                        <TouchableOpacity  onPress={() => window.open('https://explorer153.herokuapp.com/')}>
+                            <Image
+                                style={styles.logo}
+                                source={require('../../images/logos/herokuLogo.png')}
+                            />
+                        </TouchableOpacity>
                         <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001/explorer')}>
                             <Image
                                 style={styles.logo}
-                                source={require('../../images/logos/gitHubLogo.jpg')}
+                                source={require('../../images/logos/gitHubLogo.png')}
                             />
-                            <Text style = {styles.label}>GitHub</Text>
                         </TouchableOpacity>
-
-                        <TouchableOpacity  onPress={() => window.open('https://runapp-152.herokuapp.com/')}>
+                        <TouchableOpacity  onPress={() => window.open('https://drive.google.com/file/d/192T9wSQhURCWHrJt0ffJaCc7bTqy96Y-/view?usp=sharing')}>
                         <Image
                             style={styles.logo}
-                            source={require('../../images/logos/herokuLogo.png')}
+                            source={require('../../images/logos/youtubeLogo.png')}
                         />
                         </TouchableOpacity>
+                        
                     </View>
                 </View>
             </View>

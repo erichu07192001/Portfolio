@@ -3,7 +3,6 @@
 // Importing react packages
 import React from 'react';
 import { View,  Button, StyleSheet, Text, Image, TouchableOpacity} from 'react-native';
-import { Linking} from 'react-native'
 
 // Importing components
 import styles from './style';
@@ -15,7 +14,7 @@ import Explorer from './projects/explorer'
 
 export default function Projects(){
     return(
-        <View style = {styles.container}> 
+        <View style = {styles.projects}> 
             <View style = {styles.splitscreen}>
                 <View>
                     <Text style = {styles.title}>Projects</Text>
@@ -24,6 +23,7 @@ export default function Projects(){
                     <Text style = {styles.text}> Of course, there will be many more projects to come. </Text>
                     <Text style = {styles.text}> These are just a few that I thought were cool and would love to share!</Text>
                     <Text style = {styles.text}> Also, I built this website myself with ReactJS and Expo!</Text>
+                    <Text style = {styles.text}> Click on any of the icons on the following project to learn more!</Text>
                 </View>
 
                 <Image
@@ -31,11 +31,15 @@ export default function Projects(){
                     source={require('../images/projectHeadImage.jpg')}
                 />
             </View>
-                <Explorer/>
-                <WorldCancer/>
-                <RenTree/>
-                <RunApp/>
-                <Trivia/>
+                <View style = {{backgroundColor: 'azure', padding: 20, borderRadius: 20}}><Explorer/></View>
+                <br/>
+                <View style = {{backgroundColor: '#89C4F4', padding: 20, borderRadius: 20}}><WorldCancer/></View>
+                <br/>
+                <View style = {{backgroundColor: '#4B77BE', padding: 20, borderRadius: 20}}><RenTree/></View>
+                <br/>
+                <View style = {{backgroundColor: '#1F4788', padding: 20, borderRadius: 20}}><RunApp/></View>
+                <br/>
+                <View style = {{backgroundColor: '#003171', padding: 20, borderRadius: 20}}><Trivia/></View>
         </View>
     );
 }

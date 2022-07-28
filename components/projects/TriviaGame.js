@@ -24,9 +24,8 @@ export default function TriviaGame(){
                     <TouchableOpacity  onPress={() => window.open('https://github.com/ianduffield/COSI12B_Final_Project_Team12')}>
                         <Image
                             style={styles.logo}
-                            source={require('../../images/logos/gitHubLogo.jpg')}
+                            source={require('../../images/logos/gitHubLogo.png')}
                         />
-                        <Text style = {styles.label}>GitHub</Text>
                     </TouchableOpacity>
                 </View>
                 

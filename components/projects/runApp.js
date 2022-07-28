@@ -24,19 +24,17 @@ export default function RunApp(){
                     <Text style = {styles.text}> access to the leaderboard function to record and compare running times. </Text>
                     <Text style = {styles.text}> Furthermore, I also implemented a weather API for users to check the weather.</Text>
                     <View style = {styles.splitscreen}>
-                        <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001/RunApp')}>
-                            <Image
-                                style={styles.logo}
-                                source={require('../../images/logos/gitHubLogo.jpg')}
-                            />
-                            <Text style = {styles.label}>GitHub</Text>
-                        </TouchableOpacity>
-
                         <TouchableOpacity  onPress={() => window.open('https://runapp-152.herokuapp.com/')}>
                         <Image
                             style={styles.logo}
                             source={require('../../images/logos/herokuLogo.png')}
                         />
+                        </TouchableOpacity>
+                        <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001/RunApp')}>
+                            <Image
+                                style={styles.logo}
+                                source={require('../../images/logos/gitHubLogo.png')}
+                            />
                         </TouchableOpacity>
                     </View>
                 </View>

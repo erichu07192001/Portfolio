@@ -24,7 +24,7 @@ export default function RenTree(){
                     <TouchableOpacity  onPress={() => window.open('https://docs.google.com/document/d/15J6iff051kFF0meZH-qHulz0qBqcVLrNutITQBIkmXs/edit?usp=sharing')}>
                         <Image
                             style={styles.logo}
-                            source={require('../../images/logos/googleDocsLogo.jpg')}
+                            source={require('../../images/logos/googleDocsLogo.png')}
                         />
                         <Text style = {styles.label}>Final Report</Text>
                     </TouchableOpacity>
