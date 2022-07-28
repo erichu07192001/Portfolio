@@ -2,9 +2,9 @@
 
 // Importing react packages
 import React from 'react';
-import { View,  Button, StyleSheet, Text, Image} from 'react-native';
+// import { View,  Button, StyleSheet, Text, Image} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 
 // Importing components
