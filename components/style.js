@@ -6,11 +6,13 @@ import { ImageBackground } from 'react-native-web';
 
 // Variable used to find dimensions of screen
 const dimensions = Dimensions.get('window');
-const imageHeight = Math.round(dimensions.width * 9 / 16);
-const imageWidth = dimensions.width;
+const height = Math.round(dimensions.width * 9 / 16);
+const width = dimensions.width;
+const fontScale = width / 1980
 
 // Used to keep styling consistent
 const styles = StyleSheet.create({
+  // Styles for navigation
     about:{
       padding: 24,
       flex: 1,
@@ -23,25 +25,31 @@ const styles = StyleSheet.create({
       backgroundColor: '#D3D3D3'
     },
   
+  // Styles
+  body:{
+    flex: 1,
+    padding: 20
+  },
     title:{
       fontFamily: 'sans-serif',
-      fontSize: 64,
+      // fontSize: 64,
+      fontSize: fontScale * 64,
       fontWeight: 'bold',
       // textAlign: 'center',
-      paddingBottom: 10
+      bottomPadding: 20,
     },
 
     subtitle:{
       fontFamily: 'sans-serif',
-      fontSize: 32,
+      fontSize: fontScale * 32,
       fontWeight: 'bold',
-      paddingBottom: 10
+      bottomPadding: 10,
     },
   
     text:{
       fontFamily: 'sans-serif',
-      fontSize: 24,
-      paddingBottom: 8
+      fontSize: fontScale * 24,
+      bottomPadding: 10
     },
 
     label:{
@@ -53,32 +61,36 @@ const styles = StyleSheet.create({
     },
   
     profilePicture: {
-      width: imageWidth / 3,
-      height: imageHeight / 2,
+      width: width / 3,
+      height: height / 2,
       borderRadius: 2000,
       alignSelf: 'center',
-      resizeMode: 'contain'
+      resizeMode: 'contain',
+      // borderWidth: 5,
+      // borderColor: 'red',
+      padding: 20
     },
     
     projectPicture: {
-      width: imageWidth / 3,
-      height: imageHeight / 2,
+      width: width / 3,
+      height: height / 2,
       borderRadius: 500,
       alignSelf: 'center',
-      resizeMode: 'contain'
+      resizeMode: 'contain',
+      
     },
 
     picture:{
-      height: imageHeight / 3,
-      width: imageWidth / 3,
+      height: height / 3,
+      width: width / 3,
       // borderRadius: 75,
       alignSelf:'center',
       resizeMode: 'contain',
     },
 
     logo:{
-      height: imageHeight / 10,
-      width: imageWidth / 10,
+      height: height / 10,
+      width: width / 10,
       alignSelf:'center',
       borderRadius: 10,
       resizeMode: 'contain',

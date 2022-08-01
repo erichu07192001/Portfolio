@@ -15,10 +15,10 @@ export default function WorldCancer(){
                     style = {styles.picture}
                     source={require('../../images/worldCancerImages/worldCancerHungary.png')}
                 />
-                <View>
+                <View style = {styles.body}>
                     <Text style = {styles.subtitle}>World Cancer Data (Spring 2022)</Text>
-                    <Text style = {styles.text}> Data analysis of malignant types of Cancer from 2000 - 2012</Text>
-                    <Text style = {styles.text}> Written with JupyterLabs (Python) with the NumPy and Pandas packages. </Text>
+                    <Text style = {styles.text}>Data analysis of malignant types of Cancer from 2000 - 2012</Text>
+                    <Text style = {styles.text}>Written with JupyterLabs (Python) with the NumPy and Pandas packages. </Text>
                     <Text style = {styles.text}> </Text>
                     <Text style = {styles.text}> </Text>
                     <TouchableOpacity  onPress={() => window.open('https://github.com/erichu07192001/cs103a-cpa01')}>

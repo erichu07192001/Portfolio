@@ -17,19 +17,18 @@ export default function About (){
             style={styles.profilePicture}
             source={require('../images/profilePicture.jpg')}
         />
-        <View> 
-            <Text style = {{fontSize: 20, fontFamily: 'sans-serif',}}>Hello! I'm...</Text>
+        <View style = {styles.body}> 
+            <Text style = {styles.text}>Hello! I'm...</Text>
             <Text style = {styles.title}>Eric Hu</Text>
-            <Text style = {styles.subtitle}>I'm a senior at Brandeis University and majoring in Computer Science</Text>
-            <Text style = {styles.subtitle}>and minoring in Asian American Pacific Islander Studies</Text>
-            <Text style = {styles.subtitle}>and Film & Interactive Media Studies. </Text>
-            <Text style = {styles.text}> I'm from Seattle, WA and I go to univesity in Boston, MA. Growing up, </Text>
-            <Text style = {styles.text}> I was always interested in computers. When I was 13 years old, I built my</Text>
-            <Text style = {styles.text}> first PC, which I've kept up and running up to this day. When I was 15,</Text>
-            <Text style = {styles.text}> I took my first programming class in high school, where I learned C#</Text>
-            <Text style = {styles.text}> and participated in the game design competition, Hunt The Wumpus!</Text>
-            <Text style = {styles.text}> That class ignited my interest in computer programming which inspired</Text>
-            <Text style = {styles.text}> me to pursue Computer Science and the rest is history!  </Text>
+            <Text style = {styles.subtitle}>I'm a senior at Brandeis University and majoring in Computer Science
+            and minoring in Asian American Pacific Islander Studies
+            and Film & Interactive Media Studies.</Text>
+            <Text style = {styles.text}>I'm from Seattle, WA and I go to univesity in Boston, MA. Growing up
+            I was always interested in computers. When I was 13 years old, I built my first PC, which I've kept up and running up to this day. When I was 15,
+            I took my first programming class in high school, where I learned C#
+            and participated in the game design competition, Hunt The Wumpus!
+            That class ignited my interest in computer programming which inspired
+            me to pursue Computer Science and the rest is history!</Text>
             {/* <Text style = {styles.text}> In my free time, I like to run, watch TV & movies, and play video games. Another hobby of</Text>
             <Text style = {styles.text}> mine is learning card magic!</Text> */}
         </View>

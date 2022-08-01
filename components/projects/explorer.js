@@ -15,12 +15,12 @@ export default function RunApp(){
                     style = {styles.picture}
                     source={require('../../images/explorerImages/explorerSeattle.png')}
                 />
-                <View>
+                <View style = {styles.body}>
                     <Text style = {styles.subtitle}>Explorer (Summer 2022)</Text>
-                    <Text style = {styles.text}> A mobile application I built with ReactJS and Expo.</Text>
-                    <Text style = {styles.text}> Explorer helps users find activities to do nearby. Users are asked for</Text>
-                    <Text style = {styles.text}> their location and can search for food and activities nearby.</Text>
-                    <Text style = {styles.text}> Explorer uses Yelp and Weather API to help users find activities</Text>
+                    <Text style = {styles.text}>A mobile application I built with ReactJS and Expo.</Text>
+                    <Text style = {styles.text}>Explorer helps users find activities to do nearby. Users are asked for
+                                                their location and can search for food and activities nearby.</Text>
+                    <Text style = {styles.text}>Explorer uses Yelp and Weather API to help users find activities</Text>
                     <Text style = {styles.text}> </Text>
                     <Text style = {styles.text}> </Text>
                     <View style = {styles.splitscreen}>

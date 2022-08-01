@@ -16,14 +16,14 @@ export default function Projects(){
     return(
         <View style = {styles.projects}> 
             <View style = {styles.splitscreen}>
-                <View>
+                <View style = {styles.body}>
                     <Text style = {styles.title}>Projects</Text>
                     <Text style = {styles.subtitle}>Check out some of the projects</Text>
                     <Text style = {styles.subtitle}>I have worked on during my time at Brandeis!</Text>
-                    <Text style = {styles.text}> Of course, there will be many more projects to come. </Text>
-                    <Text style = {styles.text}> These are just a few that I thought were cool and would love to share!</Text>
-                    <Text style = {styles.text}> Also, I built this website myself with ReactJS and Expo!</Text>
-                    <Text style = {styles.text}> Click on any of the icons on the following project to learn more!</Text>
+                    <Text style = {styles.text}>Of course, there will be many more projects to come.
+                    These are just a few that I thought were cool and would love to share! </Text>
+                    <Text style = {styles.text}>Also, I built this website myself with ReactJS and Expo!
+                    Click on any of the icons on the following project to learn more!</Text>
                 </View>
 
                 <Image
