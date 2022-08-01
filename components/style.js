@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 
     label:{
       fontFamily: 'sans-serif',
-      fontSize: 16,
+      fontSize: fontScale * 16,
       textAlign: 'center',
       color: '#171780',
       padding: 5
