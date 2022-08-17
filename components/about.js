@@ -23,8 +23,8 @@ export default function About (){
             <Text style = {styles.subtitle}>I'm a senior at Brandeis University and majoring in Computer Science
             and minoring in Asian American Pacific Islander Studies
             and Film & Interactive Media Studies.</Text>
-            <Text style = {styles.text}>I'm from Seattle, WA and I go to univesity in Boston, MA. Growing up
-            I was always interested in computers. When I was 13 years old, I built my first PC, which I've kept up and running up to this day. When I was 15,
+            <Text style = {styles.text}>I'm from Seattle, WA and I go to univesity in Boston, MA. Growing up,
+            I have always interested in computers. At 13 years old, I built my first PC, which I've kept up and running to this day. When I was 15,
             I took my first programming class in high school, where I learned C#
             and participated in the game design competition, Hunt The Wumpus!
             That class ignited my interest in computer programming which inspired
@@ -35,7 +35,7 @@ export default function About (){
       </View>
 
       <View style = {{backgroundColor: '#C1E1C1', padding: 20, borderRadius: 20}}> 
-        <Text style = {styles.label}>Click On The Icons Below To Learn More!</Text>
+        <Text style = {styles.subtitleCenter}>Click On The Icons Below To Learn More!</Text>
         
         <View style = {styles.splitscreen}>
             <TouchableOpacity onPress={() => window.open('https://docs.google.com/document/d/1RezT5OlxuhlwE_pwlQdn2xrkyLxE9JMZjGaygHm7UGs/edit?usp=sharing')}>
@@ -67,7 +67,7 @@ export default function About (){
         <br/>
         
         <View style = {{backgroundColor: 'azure', padding: 20, borderRadius: 20}}>
-            <Text style = {styles.subtitle}>Proficient Languages</Text>
+            <Text style = {styles.subtitleCenter}>Proficient Languages</Text>
             <View style = {styles.splitscreen}>
                 <View>
                     <Image

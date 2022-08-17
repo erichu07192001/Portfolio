@@ -17,11 +17,10 @@ export default function RunApp(){
                 />
                 <View style = {styles.body}>
                     <Text style = {styles.subtitle}>Explorer (Summer 2022)</Text>
-                    <Text style = {styles.text}>A mobile application I built with ReactJS and Expo.</Text>
-                    <Text style = {styles.text}>Explorer helps users find activities to do nearby. Users are asked for
-                                                their location and can search for food and activities nearby.</Text>
-                    <Text style = {styles.text}>Explorer uses Yelp and Weather API to help users find activities</Text>
-                    <Text style = {styles.text}> </Text>
+                    <Text style = {styles.text}>Developed a mobile application to help users search food and activities </Text>
+                    <Text style = {styles.text}>- Developed with ReactJS and Expo, while deployed with Heroku</Text>
+                    <Text style = {styles.text}>- Implemented APIs (Yelp & Weather) to gather information to help users choose an activity</Text>
+                    <Text style = {styles.text}>- Streamlined user experience with Expo SDK allowing users current location information from APIs to be initially displayed </Text>
                     <Text style = {styles.text}> </Text>
                     <View style = {styles.splitscreen}>
                         <TouchableOpacity  onPress={() => window.open('https://explorer153.herokuapp.com/')}>

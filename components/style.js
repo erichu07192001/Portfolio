@@ -45,6 +45,14 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       bottomPadding: 10,
     },
+
+    subtitleCenter:{
+      fontFamily: 'sans-serif',
+      fontSize: fontScale * 32,
+      fontWeight: 'bold',
+      bottomPadding: 10,
+      textAlign: 'center'
+    },
   
     text:{
       fontFamily: 'sans-serif',

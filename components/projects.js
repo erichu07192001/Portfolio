@@ -31,15 +31,15 @@ export default function Projects(){
                     source={require('../images/projectHeadImage.jpg')}
                 />
             </View>
-                <View style = {{backgroundColor: 'azure', padding: 20, borderRadius: 20}}><Explorer/></View>
+                <View style = {{backgroundColor: 'white', padding: 20, borderRadius: 20}}><Explorer/></View>
                 <br/>
-                <View style = {{backgroundColor: '#89C4F4', padding: 20, borderRadius: 20}}><WorldCancer/></View>
+                <View style = {{backgroundColor: 'azure', padding: 20, borderRadius: 20}}><WorldCancer/></View>
                 <br/>
-                <View style = {{backgroundColor: '#4B77BE', padding: 20, borderRadius: 20}}><RenTree/></View>
+                <View style = {{backgroundColor: '#89C4F4', padding: 20, borderRadius: 20}}><RenTree/></View>
                 <br/>
-                <View style = {{backgroundColor: '#1F4788', padding: 20, borderRadius: 20}}><RunApp/></View>
+                <View style = {{backgroundColor: '#4B77BE', padding: 20, borderRadius: 20}}><RunApp/></View>
                 <br/>
-                <View style = {{backgroundColor: '#003171', padding: 20, borderRadius: 20}}><Trivia/></View>
+                <View style = {{backgroundColor: '#264d8c', padding: 20, borderRadius: 20}}><Trivia/></View>
         </View>
     );
 }
